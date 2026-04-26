@@ -9,6 +9,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
   variable: '--font-plus-jakarta-sans',
 })
 
+
 export const metadata: Metadata = {
   title: {
     default: 'Viewline — Digital Security, Simplified',
