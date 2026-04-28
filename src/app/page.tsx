@@ -35,7 +35,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-white px-4 pt-20 pb-24 sm:px-6 lg:px-8">
+      <section className="bg-tile px-4 pt-20 pb-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
             Digital security,{' '}

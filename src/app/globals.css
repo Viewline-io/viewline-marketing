@@ -3,3 +3,7 @@
 @theme inline {
   --font-sans: var(--font-plus-jakarta-sans);
 }
+.bg-tile {
+  background-image: url('/bgTile.png');
+  background-repeat: repeat;
+}

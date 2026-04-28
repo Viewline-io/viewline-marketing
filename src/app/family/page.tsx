@@ -60,7 +60,7 @@ export default function FamilyPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-white px-4 pt-20 pb-24 sm:px-6 lg:px-8">
+      <section className="bg-tile px-4 pt-20 pb-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-cyan-500">
             For Families
