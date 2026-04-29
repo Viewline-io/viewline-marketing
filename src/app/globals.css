@@ -27,6 +27,13 @@
   animation: gradient-animation 8s ease infinite;
 }
 
+.header-bg{
+  background-color: lightcoral;
+}
+.section-bg {
+  background-color: antiquewhite;
+}
+
 .bg-tile2 {
   background-image: url('/bgTile2.png');
   background-repeat: repeat;

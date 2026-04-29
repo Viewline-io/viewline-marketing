@@ -30,9 +30,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={plusJakartaSans.variable}>
-      <body className="min-h-screen bg-white font-sans text-gray-900 antialiased">
+      <body className="home-bg min-h-screen bg-white font-sans text-gray-900 antialiased">
+        <div className='bg-tile2'>
         <Navbar />
         <main>{children}</main>
+        </div>
         <Footer />
       </body>
     </html>
