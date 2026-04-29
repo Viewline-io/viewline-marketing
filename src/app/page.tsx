@@ -33,9 +33,9 @@ const familyFeatures = [
 
 export default function HomePage() {
   return (
-    <>
+    <div className='home-bg'>
       {/* Hero */}
-      <section className="bg-tile px-4 pt-20 pb-24 sm:px-6 lg:px-8">
+      <section className="bg-tile2 px-4 pt-20 pb-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:text-7xl">
             Digital security,{' '}
@@ -45,6 +45,7 @@ export default function HomePage() {
             Viewline gives businesses and families the visibility they need to stay
             safe online — without blocking, tracking, or invading privacy.
           </p>
+
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
               href="/business"
@@ -59,8 +60,16 @@ export default function HomePage() {
               For Families
             </Link>
           </div>
+
+        <div className='backgroud-texture'>
+          <div className='bg-tile2'></div>
+          <div className='gradient-background'></div>
         </div>
+
+        </div>
+
       </section>
+
 
       {/* Trust bar */}
       <section className="border-y border-gray-100 bg-gray-50 px-4 py-12 sm:px-6 lg:px-8">
@@ -186,6 +195,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }

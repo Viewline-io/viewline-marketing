@@ -58,9 +58,9 @@ const features = [
 
 export default function BusinessPage() {
   return (
-    <>
+    <div className='business-bg'>
       {/* Hero */}
-      <section className="bg-tile px-4 pt-20 pb-24 sm:px-6 lg:px-8">
+      <section className="bg-tile2 px-4 pt-20 pb-24 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <p className="mb-4 text-sm font-semibold uppercase tracking-widest text-cyan-500">
             For Business
@@ -176,6 +176,6 @@ export default function BusinessPage() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }

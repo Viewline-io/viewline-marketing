@@ -3,7 +3,54 @@
 @theme inline {
   --font-sans: var(--font-plus-jakarta-sans);
 }
+
 .bg-tile {
   background-image: url('/bgTile.png');
   background-repeat: repeat;
+}
+
+.home-bg {
+  background: linear-gradient(311deg, #c0ddef, #ffffff, #ffffff, #b4e3fe);
+  background-size: 240% 240%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+.business-bg {
+  background: linear-gradient(311deg, #c0c3ef, #ffffff, #ffffff, #b4cafe);
+  background-size: 240% 240%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+.family-bg {
+  background: linear-gradient(311deg, #efdac0, #ffffff, #ffffff, #fee0b4);
+  background-size: 240% 240%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+.bg-tile2 {
+  background-image: url('/bgTile2.png');
+  background-repeat: repeat;
+
+}
+
+
+
+.gradient-background {
+  background: linear-gradient(311deg, #c0ddef, #ffffff, #ffffff, #b4e3fe);
+  background-size: 240% 240%;
+  animation: gradient-animation 8s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
